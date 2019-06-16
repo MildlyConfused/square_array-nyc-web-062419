@@ -1,7 +1,8 @@
 def square_array(array)
   puts array.inspect
   array.each do |item|
-    item = item * item
+    id = array.index item
+    array[id] = item * item
   end
   puts array.inspect
   return array
