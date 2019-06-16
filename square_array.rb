@@ -2,7 +2,7 @@ def square_array(array)
   array.each do |item|
     puts item.index
     item = item * item
-    puts item
+    
 
   end
 end
