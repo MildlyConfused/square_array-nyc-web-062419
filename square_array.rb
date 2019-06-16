@@ -1,9 +1,9 @@
 def square_array(array)
+  puts array
   array.each do |item|
-    puts item
     item *= item
-    puts item
   end
+  puts array
 end
 
 square_array([1,2,3])
