@@ -5,6 +5,7 @@ def square_array(array)
     array[id] = item * item
   end
   puts array.inspect
+  return array
 end
 
 square_array([1,2,3])
