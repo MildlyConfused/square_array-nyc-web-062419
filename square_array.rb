@@ -7,4 +7,4 @@ def square_array(array)
   end
 end
 
-square_array([0,1,2])
+square_array([1,2,3])
